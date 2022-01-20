@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "26f66ad8-7b0e-4243-94ed-3aa05eeed64e": {
+      "ProjectGuid": "26f66ad8-7b0e-4243-94ed-3aa05eeed64e",
+      "DisplayName": "Flappy_Bird",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Fichiers divers",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
