@@ -43,6 +43,8 @@
             this.btnUpBird = new System.Windows.Forms.Button();
             this.lblScoreGame = new System.Windows.Forms.Label();
             this.panelGameOver = new System.Windows.Forms.Panel();
+            this.lblBestScore = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.btnQuit = new System.Windows.Forms.Button();
             this.btnReplay = new System.Windows.Forms.Button();
             this.lblScore = new System.Windows.Forms.Label();
@@ -50,8 +52,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.lblBestScore = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picPlantDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBird)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPipeUp2)).BeginInit();
@@ -167,7 +167,7 @@
             this.btnUpBird.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(216)))), ((int)(((byte)(149)))));
             this.btnUpBird.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(216)))), ((int)(((byte)(149)))));
             this.btnUpBird.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpBird.Font = new System.Drawing.Font("Gill Sans Nova Cond Ultra Bold", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpBird.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpBird.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnUpBird.Location = new System.Drawing.Point(0, 531);
             this.btnUpBird.Name = "btnUpBird";
@@ -180,11 +180,11 @@
             // lblScoreGame
             // 
             this.lblScoreGame.AutoSize = true;
-            this.lblScoreGame.Font = new System.Drawing.Font("Gill Sans Nova Cond Ultra Bold", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScoreGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScoreGame.ForeColor = System.Drawing.Color.MintCream;
             this.lblScoreGame.Location = new System.Drawing.Point(226, 67);
             this.lblScoreGame.Name = "lblScoreGame";
-            this.lblScoreGame.Size = new System.Drawing.Size(39, 44);
+            this.lblScoreGame.Size = new System.Drawing.Size(36, 39);
             this.lblScoreGame.TabIndex = 73;
             this.lblScoreGame.Text = "0";
             // 
@@ -207,6 +207,28 @@
             this.panelGameOver.TabIndex = 74;
             this.panelGameOver.Visible = false;
             // 
+            // lblBestScore
+            // 
+            this.lblBestScore.AutoSize = true;
+            this.lblBestScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBestScore.ForeColor = System.Drawing.Color.DarkGoldenrod;
+            this.lblBestScore.Location = new System.Drawing.Point(351, 328);
+            this.lblBestScore.Name = "lblBestScore";
+            this.lblBestScore.Size = new System.Drawing.Size(37, 39);
+            this.lblBestScore.TabIndex = 42;
+            this.lblBestScore.Text = "0";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.label4.Location = new System.Drawing.Point(69, 328);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(248, 39);
+            this.label4.TabIndex = 41;
+            this.label4.Text = "BEST SCORE";
+            // 
             // btnQuit
             // 
             this.btnQuit.BackColor = System.Drawing.Color.DarkGoldenrod;
@@ -214,7 +236,7 @@
             this.btnQuit.FlatAppearance.BorderSize = 0;
             this.btnQuit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGoldenrod;
             this.btnQuit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGoldenrod;
-            this.btnQuit.Font = new System.Drawing.Font("Gill Sans Nova", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuit.ForeColor = System.Drawing.Color.SeaShell;
             this.btnQuit.Location = new System.Drawing.Point(324, 439);
             this.btnQuit.Name = "btnQuit";
@@ -229,7 +251,7 @@
             this.btnReplay.BackColor = System.Drawing.Color.DarkSlateGray;
             this.btnReplay.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.btnReplay.FlatAppearance.BorderSize = 0;
-            this.btnReplay.Font = new System.Drawing.Font("Gill Sans Nova", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReplay.ForeColor = System.Drawing.Color.SeaShell;
             this.btnReplay.Location = new System.Drawing.Point(64, 439);
             this.btnReplay.Name = "btnReplay";
@@ -242,11 +264,11 @@
             // lblScore
             // 
             this.lblScore.AutoSize = true;
-            this.lblScore.Font = new System.Drawing.Font("Gill Sans Nova", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScore.ForeColor = System.Drawing.Color.DarkGoldenrod;
             this.lblScore.Location = new System.Drawing.Point(351, 242);
             this.lblScore.Name = "lblScore";
-            this.lblScore.Size = new System.Drawing.Size(38, 44);
+            this.lblScore.Size = new System.Drawing.Size(37, 39);
             this.lblScore.TabIndex = 37;
             this.lblScore.Text = "0";
             // 
@@ -261,11 +283,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Gill Sans Nova Cond Ultra Bold", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label3.Location = new System.Drawing.Point(69, 242);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(112, 44);
+            this.label3.Size = new System.Drawing.Size(144, 39);
             this.label3.TabIndex = 33;
             this.label3.Text = "SCORE";
             // 
@@ -282,35 +304,13 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.SkyBlue;
-            this.label1.Font = new System.Drawing.Font("Gill Sans Nova Cond Ultra Bold", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label1.Location = new System.Drawing.Point(62, 44);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(368, 87);
+            this.label1.Size = new System.Drawing.Size(447, 76);
             this.label1.TabIndex = 31;
             this.label1.Text = "GAME OVER";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Gill Sans Nova Cond Ultra Bold", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label4.Location = new System.Drawing.Point(69, 328);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(190, 44);
-            this.label4.TabIndex = 41;
-            this.label4.Text = "BEST SCORE";
-            // 
-            // lblBestScore
-            // 
-            this.lblBestScore.AutoSize = true;
-            this.lblBestScore.Font = new System.Drawing.Font("Gill Sans Nova", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBestScore.ForeColor = System.Drawing.Color.DarkGoldenrod;
-            this.lblBestScore.Location = new System.Drawing.Point(351, 328);
-            this.lblBestScore.Name = "lblBestScore";
-            this.lblBestScore.Size = new System.Drawing.Size(38, 44);
-            this.lblBestScore.TabIndex = 42;
-            this.lblBestScore.Text = "0";
             // 
             // frm_ZoneJeu
             // 

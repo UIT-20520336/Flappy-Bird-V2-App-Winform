@@ -28,6 +28,7 @@ namespace Flappy_Bird
         bool plantVisible;
         bool firstClickTimer;
         String position;
+        Bird birdInstance;
         #endregion
 
         public frm_ZoneJeu()
@@ -36,7 +37,7 @@ namespace Flappy_Bird
             random = new Random();
             sqlConnection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\kamel\Documents\Slam\Flappy_Bird\Flappy_Bird\Score.mdf;Integrated Security=True");
             command = new SqlCommand();
-            picPlant.SendToBack();
+            birdInstance = Bird.GetInstance();
             initialisation();
         }
 
@@ -57,7 +58,7 @@ namespace Flappy_Bird
                 return;
             }
             lblScoreGame.SendToBack();
-            picBird.Location = new Point(64, 247);
+            picBird.Location = new Point(birdInstance.X, birdInstance.Y);
             panelGameOver.Visible = false;
             picPlant.Top = -15;
             picPlantDown.Top = this.Height;
@@ -326,4 +327,31 @@ namespace Flappy_Bird
 
         #endregion
     }
+}
+
+public class Bird
+{
+    private static Bird instance; // Singleton instance
+
+    // Bird properties
+    public int X { get; private set; }
+    public int Y { get; private set; }
+
+    private Bird()
+    {
+        // Initialize the bird properties
+        X = 64;
+        Y = 247;
+    }
+
+    // Method to get the Singleton instance
+    public static Bird GetInstance()
+    {
+        if (instance == null)
+        {
+            instance = new Bird();
+        }
+        return instance;
+    }
+
 }
