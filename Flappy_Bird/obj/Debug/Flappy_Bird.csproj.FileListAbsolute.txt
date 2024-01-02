@@ -20,3 +20,11 @@ C:\Users\kamel\Documents\Slam\Flappy_Bird\Flappy_Bird\Flappy_Bird\obj\Debug\Flap
 C:\Users\kamel\Documents\Slam\Flappy_Bird\Flappy_Bird\Flappy_Bird\obj\Debug\Flappy_Bird.csproj.SuggestedBindingRedirects.cache
 C:\Users\kamel\Documents\Slam\Flappy_Bird\Flappy_Bird\Flappy_Bird\obj\Debug\Flappy_Bird.exe
 C:\Users\kamel\Documents\Slam\Flappy_Bird\Flappy_Bird\Flappy_Bird\obj\Debug\Flappy_Bird.pdb
+H:\trung\Git\Flappy-Bird-V2-App-Winform\Flappy_Bird\obj\Debug\Flappy_Bird.csproj.AssemblyReference.cache
+H:\trung\Git\Flappy-Bird-V2-App-Winform\Flappy_Bird\obj\Debug\Flappy_Bird.frm_Accueil.resources
+H:\trung\Git\Flappy-Bird-V2-App-Winform\Flappy_Bird\obj\Debug\Flappy_Bird.frm_ZoneJeu.resources
+H:\trung\Git\Flappy-Bird-V2-App-Winform\Flappy_Bird\obj\Debug\Flappy_Bird.Properties.Resources.resources
+H:\trung\Git\Flappy-Bird-V2-App-Winform\Flappy_Bird\obj\Debug\Flappy_Bird.csproj.GenerateResource.cache
+H:\trung\Git\Flappy-Bird-V2-App-Winform\Flappy_Bird\obj\Debug\Flappy_Bird.csproj.CoreCompileInputs.cache
+H:\trung\Git\Flappy-Bird-V2-App-Winform\Flappy_Bird\obj\Debug\Flappy_Bird.exe
+H:\trung\Git\Flappy-Bird-V2-App-Winform\Flappy_Bird\obj\Debug\Flappy_Bird.pdb
